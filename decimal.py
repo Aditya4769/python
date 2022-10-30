@@ -1,4 +1,4 @@
 x = int(input("X: "))
 y = float(input("Y: "))
 print("   ",x)
-print(y,[0:4])
+print(y,[0])
