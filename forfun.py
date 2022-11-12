@@ -15,6 +15,16 @@
 # even,odd = count(list)
 # print(even)
 # print(odd)
+
+
+
+
+
+
+
+
+
+
 def count(list):
     total=0
     for i in list:

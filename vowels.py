@@ -1,5 +1,7 @@
+#using of in function
+
 x = input("Enter Vowels: ")
-vowel = "A E I O U a e i o u"
+vowel = "AEIOUaeiou"
 
 if x in vowel:
     print(x,"This is Vowles")
