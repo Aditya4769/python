@@ -127,23 +127,42 @@
 
 
 
-class vehicle:
-    def capacity():
-        print(4)
+# class vehicle:
+#     def capacity():
+#         print(4)
 
-class car1(vehicle):
-    pass
-class car2(vehicle):
-    pass
-class bus(vehicle):
-    def capacity():
-        print(50)
+# class car1(vehicle):
+#     pass
+# class car2(vehicle):
+#     pass
+# class bus(vehicle):
+#     def capacity():
+#         print(50)
 
 
-objcar1 = car1
-objcar2 = car2
-objbus = bus
+# objcar1 = car1
+# objcar2 = car2
+# objbus = bus
 
-objcar1.capacity()
-objcar2.capacity()
-objbus.capacity()
+# objcar1.capacity()
+# objcar2.capacity()
+# objbus.capacity()
+
+
+
+
+
+
+
+
+
+
+class Person:
+    def __init__(self,name,age):
+        self.__name = name
+        self.__age = age
+
+person1 = Person("Ronaldo",35)
+print(person1._Person__name)
+print(person1._Person__age)
+
